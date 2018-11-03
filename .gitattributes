@@ -1,3 +1,5 @@
 perl/XML/* linguist-vendored
-
-
+www/js/bootstrap/* linguist-vendored
+www/js/jquery/* linguist-vendored
+www/js/tablesort/* linguist-vendored
+www/js/tether/* linguist-vendored
