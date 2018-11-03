@@ -1,0 +1,150 @@
+.side_menu {
+  float:left;
+  width: 290px;
+  position: relative;
+}
+.side_menu_header {
+  margin-left: 10px;
+}
+.side_menu_body {
+  margin-top: 15px;
+  margin-left: 10px;
+}
+#calendar_table {
+  width: 270px;
+  font-size: 1rem;
+  border: solid 1px;
+  border-color: #f0f0f0;
+  border-collapse: collapse;
+}
+#calendar_table .calendar_th_week:nth-of-type(1),
+#calendar_table td:nth-of-type(1) {
+  color: #cc2222;
+}
+#calendar_table .calendar_th_week:nth-of-type(7),
+#calendar_table td:nth-of-type(7) {
+  color: #2222cc;
+}
+.calendar_th {
+  text-align: center;
+  border: solid 1px;
+  border-color: #f0f0f0;
+  border-collapse: collapse;
+}
+.calendar_tbody {
+  text-align: right;
+}
+.calendar_td {
+  text-align: center;
+  border: solid 1px;
+  border-color: #f0f0f0;
+  border-collapse: collapse;
+}
+.calendar_td_ago {
+  text-decoration: underline;
+}
+.calendar_td_ago:hover {
+  cursor:pointer;
+}
+.white_div {
+  height: 10px;
+}
+.odd_cell {
+  background-color: #f6f6f6;
+}
+.even_cell {
+  background-color: #fcfcfc;
+}
+.targetDate {
+  background-color: #ffddcc;
+}
+.siteList {
+  font-size: 0.8rem;
+  margin-top: 5px;
+  margin-left: -20px;
+  overflow: auto;
+  width: 300px;
+}
+.siteList ul {
+  -webkit-padding-start: 20px;
+}
+.siteList span:hover {
+  cursor:pointer;
+}
+.siteList label {
+  margin-bottom: 0;
+  cursor:pointer;
+}
+table {
+  font-size: 0.75rem;
+}
+thead {
+  background-color: #f3f3f3;
+}
+.rss_th:hover {
+  text-decoration: underline;
+  cursor:pointer;
+}
+.rss_th:nth-of-type(1) {
+  width: 60px;
+}
+.rss_th:nth-of-type(3) {
+  width: 210px;
+}
+a {
+  color: #292b2c !important;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f9f9f9 !important;
+}
+.table-striped tbody tr:nth-of-type(even) {
+  background-color: #fcfcfc !important;
+}
+.table-hover tbody tr:hover {
+  background-color: #f0f0f0 !important;
+}
+.rightArea {
+  width: 80%;
+  widht: -webkit-calc(100% - 290px);
+  width: -moz-calc(100% - 290px);
+  width: calc(100% - 290px);
+  height: 100%;
+  margin-left: 290px;
+  position: absolute;
+}
+.rss_area {
+  position: relative;
+  overflow-y: scroll;
+  height: 70%;
+  margin: 10px;
+}
+#rss_table {
+  width: 100%;
+}
+#rss_table tbody tr td:nth-of-type(2) div {
+  word-break: break-all;
+/*  height: 20px; */
+/*  overflow: hidden; */
+}
+.button_area {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.white_td1 {
+  width: 35%;
+}
+.white_td2 {
+  width: 20%;
+}
+.white_td3 {
+  width: 35%;
+}
+.ad_footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.empty {
+  display: none;
+}

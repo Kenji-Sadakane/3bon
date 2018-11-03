@@ -1,0 +1,76 @@
+<html lang="ja">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=Shift-JIS">
+  <meta name="title" content="アンテナ3本 | 話題のニュースまとめ">
+  <meta name="description" content="2chまとめブログ等の更新状況を紹介しています。アンテナサイト,まとめサイト">
+  <meta property="og:title" content="アンテナ3本" />
+  <meta property="og:type" content="website">
+  <meta property="og:description" content="2chまとめブログ等の更新状況を紹介しています">
+  <meta name='viewport' content='width=device-width,initial-scale=1'>
+  <meta name="google-site-verification" content="MfGO8GwXnX8Gyee_bqIJBwm0ZmPQLLPVVzfB1busS4U" />
+  <script src="js/jquery/jquery-3.1.1.min.js"></script>
+  <script src="js/tether/tether.min.js"></script>
+  <script src="js/bootstrap/bootstrap.min.js"></script>
+  <script src="js/tablesort/tablesort.min.js"></script>
+  <script src="js/main.js?e"></script>
+  <link rel="shortcut icon" href="ico/favicon.ico" />
+  <link href="css/main.css" rel="stylesheet">
+  <link href="css/tether/tether.min.css" rel="stylesheet">
+  <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
+  <title>アンテナ3本</title>
+</head>
+<body>
+<div class="side_menu">
+  <div class="side_menu_header">
+    <a href="http://3bon.net">
+      <img src="img/logo.png" />
+      <span class="empty">アンテナ3本</span>
+    </a>
+    <div class="empty"></div>
+    <div class="calendar"></div>
+  </div>
+  <div class="side_menu_body">
+    <span>掲載カテゴリ一覧</span>
+    <div class="siteList"></div>
+  </div>
+</div>
+<div class="rightArea">
+  <div class="rss_area">
+    <table id="rss_table" class="table table-hover table-striped" frame="box" bordercolor="#e0e0e0">
+      <thead>
+        <tr>
+          <th class="rss_th" data-sort-default>時間</th>
+          <th class="rss_th">タイトル</th>
+          <th class="rss_th">サイト</th>
+        </tr>
+      </thead>
+      <tbody class="rss_row">
+      </tbody>
+    </table>
+  </div>
+  <table class="button_area">
+    <tr>
+      <td class="white_td1"></td>
+      <td><button type="button" class="btn btn-info prevPage">次へ</button></td>
+      <td class="white_td2"></td>
+      <td><button type="button" class="btn btn-info nextPage">前へ</button></td>
+      <td class="white_td3"></td>
+    </tr>
+  </table>
+  <div class="ad_footer">
+    <script src="http://adm.shinobi.jp/s/8cecf26167d378fcfaffe45637d3787d"></script>
+  </div>
+</div>
+</body>
+
+<script type="text/javascript">
+  var sort = new Tablesort(document.getElementById('rss_table'), {
+    descending: true
+  });
+  $(function() {
+    init();
+  });
+</script>
+
+</html>
+
